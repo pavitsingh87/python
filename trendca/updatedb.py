@@ -12,22 +12,22 @@ from datetime import datetime
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="Waheguru@1987",
-  database="optionchain"
+  user="",
+  password="",
+  database=""
 )
 
 mycursor = mydb.cursor()
 
 def my_function():
 
-    #new_url = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY'
+    #new_url = ''
 
     #headers = {'User-Agent': 'Mozilla/5.0'}
     #page = requests.get(new_url,headers=headers)
     
-    baseurl = "https://www.nseindia.com/"
-    url = "https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY"
+    baseurl = ""
+    url = ""
     
     headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, '
                          'like Gecko) '
