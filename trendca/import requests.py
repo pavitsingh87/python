@@ -9,9 +9,9 @@ today = datetime.now()
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  password="Waheguru@1987",
-  database="optionchain"
+  user="",
+  password="",
+  database=""
 )
 
 mycursor = mydb.cursor()
@@ -19,7 +19,7 @@ mycursor = mydb.cursor()
 
 def my_function():
 
-    new_url = 'https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY'
+    new_url = ''
 
     headers = {'User-Agent': 'Mozilla/5.0'}
     page = requests.get(new_url,headers=headers)
